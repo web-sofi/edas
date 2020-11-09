@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+/*Header Section */
+header{
+	text-align: center;
+}
+header h1{
+    font-size: 75px;
+    font-weight: 600;
+}
+.line{
+	height: 1px;
+	width: 100%;
+	background: #000;
+}
+/*Banner Section CSS*/
+
+
+.banner-sec{
+	background: url(../image/banner-3.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 100px 0;
+}
+.banner-sec .content{
+    margin: 0 auto;
+    width: 60%;
+    background: #a2bed6ad;
+    text-align: center;
+    padding: 50px 0;
+ }
+.banner-sec .content h2{
+    color: #000000;
+    font-size: 40px;
+    line-height: 1.7;
+    font-weight: 700;
+}
+.banner-sec .content p{
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+}
+.banner-sec .content span{
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+}
+.banner-sec .content h3{
+    color: #000000;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+.banner-sec .content h3 span{}
+.banner-sec .content a{
+    background: #000;
+    color: #fff;
+    padding: 10px 30px;
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 25px;
+    border: 2px solid #000;
+}
+.banner-sec .content a:hover{
+	background: transparent;
+	color: #000;
+	transition-duration: 0.3s;
+}
+
+
+/*Text Section*/
+
+.text{
+    padding: 60px;
+}
+.text-inner{}
+.text-inner p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 2;
+    padding: 30px 0;
+}
+
+/*Gallary Section CSS*/
+.line-2{
+    width: 30%;
+    height: 2px;
+    margin: 20px auto;
+    background: #000;
+}
+.gallary{}
+.gallary .content{
+    margin: 30px 0;
+    text-align: center;
+}
+.gallary .content .image{
+    padding: 10px;
+}
+.gallary .content .image img{
+    width: 100%;
+}
+.gallary .content h3{
+    margin-top: 20px;
+    color: #394046bd;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+.gallary .content p{
+    color: #39406F;
+}
+
+
+/*Feature Section CSS*/
+.feature{
+    padding: 50px 0;
+}
+.feature .featuerinner{
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.feature .featuerinner .feature-img{
+    width: 52%;
+}
+.feature .featuerinner .feature-img img{width: 87%;height: 100%;}
+.feature .featuerinner .feature-content{
+    width: 50%;
+}
+.feature .featuerinner .feature-content h1{
+    text-transform: capitalize;
+    font-size: 80px;
+    font-weight: 600;
+    margin: 30px 0;
+}
+.feature .featuerinner .feature-content p{
+    font-size: 28px;
+    font-weight: 500;
+}
+.feature .featuerinner .feature-content p i{
+    margin-right: 15px;
+    font-size: 35px;
+}
+
+/*Testimonial SAection CSS*/
+
+.testi{
+    text-align: center;
+    padding: 50px 0;
+}
+.testi .logos{
+    margin: 40px 0;
+}
+.testi img{}
+.testi h4{
+    font-size: 20px;
+    font-weight: 700;
+}
+.testi p{
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+
+/*Last Part Section Css*/
+.last-part{
+	margin: 60px 0;
+	padding-top: 20px;
+}
+.last-part .content{
+    text-align: center;
+}
+.last-part .content .line-3{
+    width: 100%;
+    height: 5px;
+    background: #000;
+    margin: 50px 0;
+}
+.last-part .content h1{
+    font-size: 45px;
+    margin-bottom: 35px;
+    font-weight: 700;
+}
+.last-part .content p{
+    font-size: 27px;
+    font-weight: 600;
+}
+.last-part .content a{
+	 background: #000;
+	 color: #fff;
+	 padding: 10px 30px;
+	 display: inline-block;
+	 text-transform: capitalize;
+	 font-size: 20px;
+	 font-weight: 500;
+	 border: 2px solid #000;
+}
+
+.last-part .content a:hover{
+	background: transparent;
+	color: #000;
+	transition-duration: 0.3s;
+}
+
+footer{
+    text-align: center;
+}
+footer p{
+    font-size: 27px;
+    font-weight: 600;
+    margin: 30px 0;
+    color: #585757;
+}
